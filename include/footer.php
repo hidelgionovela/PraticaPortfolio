@@ -11,13 +11,13 @@
     </div>
     <div class="social-icons">
       <center>
-        <a href="https://instagram.com/samelevelphotography?igshid=10eagh2hag0h1" class="btn-facebook" target="_blank"><img src="app/img/facebook.svg" width=25;></a>
-        <a href="https://instagram.com/samelevelphotography?igshid=10eagh2hag0h1" class="btn-twitter" target="_blank"><img src="app/img/twitter.svg" width=25;></a>
+        <a href="https://" class="btn-facebook" target="_blank"><img src="app/img/facebook.svg" width=25;></a>
+        <a href="https://" class="btn-twitter" target="_blank"><img src="app/img/twitter.svg" width=25;></a>
         <!-- <a href="https://instagram.com/samelevelphotography?igshid=10eagh2hag0h1" class="btn-google" target="_blank"> <img src="app/img/google.svg" width=25;> </a> -->
-        <a href="https://instagram.com/samelevelphotography?igshid=10eagh2hag0h1" class="btn-instagram" target="_blank"><img src="app/img/instagram.svg" width=23;></a>
-        <a href="https://instagram.com/samelevelphotography?igshid=10eagh2hag0h1" class="btn-linkedin" target="_blank"><img src="app/img/linkedin.svg" width=23;></a>
+        <a href="https://" class="btn-instagram" target="_blank"><img src="app/img/instagram.svg" width=23;></a>
+        <a href="https://" class="btn-linkedin" target="_blank"><img src="app/img/linkedin.svg" width=23;></a>
         <!-- <a href="https://instagram.com/samelevelphotography?igshid=10eagh2hag0h1" class="btn-snapchat" target="_blank"> <img src="app/img/snapchat.svg" width=23;> </a> -->
-        <a href="https://instagram.com/samelevelphotography?igshid=10eagh2hag0h1" class="btn-tiktok" target="_blank"> <img src="app/img/tiktok.svg" width=23;> </a>
+        <a href="https://" class="btn-tiktok" target="_blank"> <img src="app/img/tiktok.svg" width=23;> </a>
         <br><br>
       </center>
       
