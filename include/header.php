@@ -19,25 +19,24 @@
         }
 
         .sticky {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      padding: 5px;
-      
-    }
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
 
-    .hidell {
-  position: absolute;
-  left: 10px;
-  top: 0px;
-  bottom: 10px;
-  z-index: -4;
-}
-img{
-    border-radius: 9px;
-}
+        }
 
+        .hidell {
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            bottom: 10px;
+            z-index: -4;
+        }
 
+        img {
+            border-radius: 9px;
+        }
     </style>
 
 </head>
