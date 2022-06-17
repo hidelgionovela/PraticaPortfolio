@@ -80,9 +80,9 @@
             <a style="display: inline-block; margin-right: 10px; text-decoration: none; color:white; font-size: 16px" href="#link8">
                 <?php echo $titulo['titulo8']; ?>
             </a>
-            <a style="display: inline-block; margin-right: 10px; text-decoration: none; color:white; font-size: 16px" href="#link8">
+            <!-- <a style="display: inline-block; margin-right: 10px; text-decoration: none; color:white; font-size: 16px" href="#link8">
                 <?php echo $titulo['titulo9']; ?>
-            </a>
+            </a> -->
 
 
         </div>

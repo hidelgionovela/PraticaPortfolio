@@ -77,7 +77,7 @@ $titulo = buscaDado("SELECT * FROM menu;");
     <div class="col-2"></div>
     <div class="col-5">
         <p style="text-align:center">Edite os dados do Site Aqui!</p>
-        <p style="text-align:center" ;><a href="include/menu.php?id=<?php echo $id; ?>"> <button type="button" class="btn btn-primary">Editar Dados</button> </a> </p>
+        <p style="text-align:center" ;><a href="include/"> <button type="button" class="btn btn-primary">Configurações</button> </a> </p>
     </div>
 </div>
 <br><br><br>

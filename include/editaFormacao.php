@@ -82,7 +82,11 @@
                         </table>
 
                         <br>
-                        <hr style="color:aliceblue ;"><br><br><br>
+                        <hr style="color:aliceblue ;">
+                        <div  style="position: fixed; bottom: 80px; right: 12px; ">
+                        <a href="index.php" > <button type="button">Voltar</button> </a>
+                        </div>
+                        <br><br><br>
                 </div>
         </div>
 
@@ -139,7 +143,8 @@
                         <hr>
 
                         <p style="text-align: right">
-                                <input type="submit" value="Gravar">
+                                <input type="submit"  value="Gravar">
+                                
                         </p>
                 </form>
 

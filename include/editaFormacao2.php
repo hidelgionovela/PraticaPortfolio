@@ -22,7 +22,7 @@
                         update("update formacao set Inicio = :Inicio, Fim = :Fim, Descricao = :Descricao, Instituicao = :Instituicao WHERE id = :id", $dados);
                         if (true) {
                              
-                                 header('Location:../index.php');
+                                 header('Location:editaFormacao.php');
                         }
                 }
         

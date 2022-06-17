@@ -28,8 +28,8 @@
       &copy; 2022 - @Hidélgio_9la - Todos os direitos reservados
     </p>
     </div>
-    <div style="position: fixed; bottom: 18px; right: 12px; width:auto; border: 3px solid white; border-radius: 10px;">
-    <a href="#link0"  style=" text-decoration: none; color:white;">Ir ao Topo</a>
+    <div class="bg-danger" style="position: fixed; bottom: 18px; right: 12px; width:auto; border: 3px solid white; border-radius: 10px;">
+    <a href="#link0"  style=" text-decoration: none; color:white; margin:3px">Ir ao Topo</a>
     </div>
   </footer>
   <!-- fechamento da div container -->

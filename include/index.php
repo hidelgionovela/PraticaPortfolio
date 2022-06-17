@@ -10,81 +10,109 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 
-  <title>Confeitaria</title>
+  <title>Configuracoes</title>
 </head>
 
-<body class="bg-light">
-  <div class=" container jumbotron bg-secondary">
-    <h1>Confeitaria</h1>
-    <p>Seja Bem Vindo a Confeitaria Bom PreCo! </p>
+<body class="bg-dark">
+  <div class=" container jumbotron bg-danger text-light">
+    <h1>Meu Portfólio</h1>
+    <p>Hidelgio Novela Estudante de Engenharia UJC!</p>
+    <h5>Configurações</h5>
+    
   </div>
 
 
 
+
   <!-- Grey with black text -->
-  <nav class=" container navbar navbar-expand-sm bg-secondary navbar-dark ">
+  <nav class=" container navbar navbar-expand-sm bg-danger navbar-dark ">
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
     <div class="container-fluid">
-      
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#"><h5>MENU</h5></a>
           </li>
-          
+
           <li class="nav-item dropdown ">
             <a class="nav-link dropdown-toggle  active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Encomendas
+              Autobiografia
             </a>
-            <ul class="dropdown-menu text-light bg-secondary" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="pages/novaEncomenda.php">Nova Encomenda</a></li>
-              <li><a class="dropdown-item" href="pages/verEncomendas.php">Ver Encomendas</a></li>
+            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="editaDados.php">Editar Autobiografia</a></li>
+              <li><a class="dropdown-item" href="#">Mudar Foto</a></li>
             </ul>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Clientes
+              Dados Pessoais
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="pages/novoCliente.php">Novo Cliente</a></li>
-              <li><a class="dropdown-item" href="pages/verClientes.php">Ver Clientes</a></li>
+            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pages/novoCliente.php">Editar dados</a></li>
+              <li><a class="dropdown-item" href="pages/verClientes.php">Adicionar dados</a></li>
+              <li><a class="dropdown-item" href="pages/verClientes.php">Apagar dados</a></li>
             </ul>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Confeiteiros
+              Formação
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="pages/novoConfeiteiro.php">Novo Confeiteiro</a></li>
-              <li><a class="dropdown-item" href="pages/verConfeiteiro.php">Ver Confeiteiros</a></li>
+            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="editaFormacao.php">Editar Formação</a></li>
+              <li><a class="dropdown-item" href="addFormacao.php">Adicionar Formação</a></li>
+              <li><a class="dropdown-item" href="">Apagar Formação</a></li>
             </ul>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Bolos
+              Cursos
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="pages/novoBolo.php">Novo Bolo</a></li>
-              <li><a class="dropdown-item" href="pages/novoTipoBolo.php">Novo Tipo</a></li>
-              <li><a class="dropdown-item" href="pages/verBolo.php">Ver Bolos</a></li>
+            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="addCurso.php">Adicionar Curso</a></li>
+              <li><a class="dropdown-item" href="">Editar curso</a></li>
+              <li><a class="dropdown-item" href="">Apagar curso</a></li>
             </ul>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Receitas
+              Línguas
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="pages/novaReceita.php">Nova Receita</a></li>
-              <li><a class="dropdown-item" href="pages/verReceita.php">Ver Receitas</a></li>
+            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="addLingua.php">Adicionar Lingua</a></li>
+              <li><a class="dropdown-item" href="">Editar Lingua</a></li>
+              <li><a class="dropdown-item" href="">Apagar Lingua</a></li>
             </ul>
           </li>
-          
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Habilidades
+            </a>
+            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="addHabilidade.php">Adicionar habilidade</a></li>
+              <li><a class="dropdown-item" href="pages/verReceita.php">Editar habilidade</a></li>
+              <li><a class="dropdown-item" href="pages/verReceita.php">Apagar habilidade</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projectos
+            </a>
+            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pages/novaReceita.php">Adicionar projecto</a></li>
+              <li><a class="dropdown-item" href="pages/verReceita.php">Editar projecto</a></li>
+              <li><a class="dropdown-item" href="pages/verReceita.php">Apagar projecto</a></li>
+            </ul>
+          </li>
         </ul>
-        
+        </center>
       </div>
     </div>
   </nav>
@@ -93,8 +121,10 @@
 
 
 
-
-    <!-- fechamento da div container -->
+  <div class="bg-danger" style="position: fixed; bottom: 18px; right: 12px; width:auto; border: 3px solid white; border-radius: 10px;">
+    <a href="../"  style=" text-decoration: none; color:white; margin:4px">Voltar</a>
+    </div>
+  <!-- fechamento da div container -->
   </div>
   <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="../js/popper.min.js"></script>

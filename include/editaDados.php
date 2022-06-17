@@ -5,7 +5,7 @@
 	<title>Editar Dados</title>
 </head>
 <body>
-	<h2>Editar Dados Pessoais</h2>
+	<h2>Editar Autobiografia</h2>
         <?php
 	require __DIR__ . '/../app/Db/db.php';
         
