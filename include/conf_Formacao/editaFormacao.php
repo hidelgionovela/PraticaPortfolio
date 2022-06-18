@@ -49,7 +49,7 @@
                                                                                                         }
                                                                                                 }
                                                                                         }
-                                                                                }
+                                                                                }?><th>Definicoes</th><?php
                                                                         }
                                                                                                                 ?>
 
@@ -66,6 +66,7 @@
                                                                 echo "<td>" . $v . "</td>";
                                                         }
                                                 } ?>
+                                                
 
                                                 <td>
                                                         <?php
@@ -94,7 +95,7 @@
                         </div>
                         <br><br><br>
                 </div>
-        </div>
+      
 
 
 
@@ -154,7 +155,7 @@
                         </p>
                 </form>
 
-
+                </div>
         <?php
         }
         // if ($_SERVER['REQUEST_METHOD'] == 'POST') {
