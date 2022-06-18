@@ -14,7 +14,7 @@
         foreach ($dados[$i] as $k => $v) {
           if ($k == "titulo") {
       ?>
-            <h2 class="text-danger" id="link2">
+            <h2 class="text-danger">
               <?php echo $v; ?>
             </h2>
       <?php
@@ -51,5 +51,5 @@
 
     </table>
   </center>
-  <br><hr style="color:aliceblue ;"><br><br>
+  <br><hr id="link3" style="color:aliceblue ;"><br><br>
 <!-- </div> -->

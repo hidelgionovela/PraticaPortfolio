@@ -43,7 +43,7 @@
 
 <body class="bg-dark text-light">
     <?php
-    require __DIR__ . '/../app/Db/db.php';
+    require __DIR__ . '/../../app/Db/db.php';
 
     $titulo = buscaDado("SELECT * FROM menu;");
     ?>

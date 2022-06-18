@@ -67,3 +67,14 @@ function create($sql = "", $dados = []): int
 
 	return $stmt->rowCount();
 }
+
+function delete($sql = '', $dados = []): int
+{
+    global $db;
+
+    $stmt  = $db->prepare($sql);
+
+    $stmt->execute($dados);
+
+    return $stmt->rowCount();
+}

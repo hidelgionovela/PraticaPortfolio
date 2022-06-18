@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 
   <title>Configuracoes</title>
 </head>
@@ -62,9 +62,9 @@
               Formação
             </a>
             <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="editaFormacao.php">Editar Formação</a></li>
-              <li><a class="dropdown-item" href="addFormacao.php">Adicionar Formação</a></li>
-              <li><a class="dropdown-item" href="">Apagar Formação</a></li>
+              <li><a class="dropdown-item" href="conf_formacao/editaFormacao.php">Editar Formação</a></li>
+              <li><a class="dropdown-item" href="conf_formacao/addFormacao.php">Adicionar Formação</a></li>
+              <li><a class="dropdown-item" href="conf_formacao/deleteFormacao.php">Apagar Formação</a></li>
             </ul>
           </li>
 

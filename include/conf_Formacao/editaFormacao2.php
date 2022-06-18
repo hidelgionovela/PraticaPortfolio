@@ -1,5 +1,5 @@
 <?php
- require __DIR__ . '/../app/Db/db.php'; 
+ require __DIR__ . '/../../app/Db/db.php'; 
 
                 if (isset ($_POST)) {
                         $inicio = $_POST['inicio'];

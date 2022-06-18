@@ -9,7 +9,7 @@
     ?>
 
     <div>
-        <h2 class="text-danger" id="link3">
+        <h2 class="text-danger" >
             <?php echo $titulo['titulo3']; ?>
         </h2>
         <br>
@@ -61,6 +61,6 @@
         </table>
 
         <br>
-        <hr style="color:aliceblue ;"><br><br><br>
+        <hr id="link4" style="color:aliceblue ;"><br><br><br>
     </div>
 <!-- </div> -->

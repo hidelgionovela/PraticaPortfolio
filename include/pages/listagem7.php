@@ -8,7 +8,7 @@ $titulo = buscaDado("SELECT * FROM menu;");
 
 <div>
     <center>
-        <h2 class="text-danger" id="link7">
+        <h2 class="text-danger" >
             <?php
             echo $titulo['titulo7'];
             ?>
