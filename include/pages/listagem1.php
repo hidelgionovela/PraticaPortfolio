@@ -1,45 +1,46 @@
 <br>
 <!-- <div class="container" style="position: relative;">   -->
-    <?php
-   
-    $dados = buscaDado("SELECT * FROM autobi;");
+<?php
 
-    ?>
+$dados = buscaDado("SELECT * FROM autobi;");
 
-    <div>
+?>
 
-        <h2 class="text-danger" id="link1">
-            <?php
-            echo $dados['titulo'];
-            ?>
-        </h2>
+<div>
 
-        <br>
-        <div class="row">
+    <h2 class="text-danger" id="link1">
+        <?php
+        echo $dados['titulo'];
+        ?>
+    </h2>
 
-            <div class="col-3" >
-                <img src="app/img/hidell.jpg" alt="hidelgio" style="width: 85%;  border-radius: 9px;" class="hidell">
-            </div>
+    <br>
+    <div class="row">
 
-            <div class="col-9"  style="position:relative;">
-                <h3 class="text-danger">
-                    <?php
-                    echo $dados['subTitulo'];
-                    ?>
-                </h3>
-                <p style="text-align:justify ;">
-                    <?php
-                    echo $dados['descricao'];
-                    ?>
-                </p>
+        <div class="col-3">
+            <img src="app/img/hidell.jpg" alt="hidelgio" style="width: 85%;  border-radius: 9px;" class="hidell">
+        </div>
+
+        <div class="col-9" style="position:relative;">
+            <h3 class="text-danger">
                 <?php
-                    $id = $dados['id'];
-                    ?>
-                
-            </div>
+                echo $dados['subTitulo'];
+                ?>
+            </h3>
+            <p style="text-align:justify ;">
+                <?php
+                echo $dados['descricao'];
+                ?>
+            </p>
+            <?php
+            $id = $dados['id'];
+            ?>
 
         </div>
 
     </div>
-    <br><br><br><hr  id="link2" style="color:aliceblue ;"><br><br>
+
+</div>
+<br><br><br>
+<hr id="link2" style="color:aliceblue ;"><br><br>
 <!-- </div> -->

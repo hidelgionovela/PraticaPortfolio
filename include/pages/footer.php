@@ -20,16 +20,16 @@
         <a href="https://" class="btn-tiktok" target="_blank"> <img src="app/img/tiktok.svg" width=23;> </a>
         <br><br>
       </center>
-      
+
     </div>
-    
+
     <div>
-    <p class="copy">
-      &copy; 2022 - @Hidélgio_9la - Todos os direitos reservados
-    </p>
+      <p class="copy">
+        &copy; 2022 - @Hidélgio_9la - Todos os direitos reservados
+      </p>
     </div>
     <div class="bg-danger" style="position: fixed; bottom: 18px; right: 12px; width:auto; border: 3px solid white; border-radius: 10px;">
-    <a href="#link0"  style=" text-decoration: none; color:white; margin:3px">Ir ao Topo</a>
+      <a href="#link0" style=" text-decoration: none; color:white; margin:3px">Ir ao Topo</a>
     </div>
   </footer>
   <!-- fechamento da div container -->

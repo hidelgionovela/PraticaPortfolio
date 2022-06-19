@@ -20,19 +20,7 @@
     ?>
 
     <form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
-        <!-- <p>
-            <label>Ano</label><br>
-            <input type="number" name="Inicio" class="field" value="<?php echo $inicio; ?>">
-        </p> -->
-        <!-- <p>
-            <label>Ano de Fim</label><br>
-            <input type="number" name="Fim" class="field" value="<?php echo $fim; ?>">
-        </p> -->
-
-        <!-- <p>
-            <label>Instituicao</label><br>
-            <input type="text" name="Instituicao" class="field" value="<?php echo $instituicao; ?>">
-        </p> --> 
+        
 
         <p>
             <label>Adiciona uma nova Habilidade</label><br>

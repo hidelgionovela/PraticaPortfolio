@@ -1,66 +1,66 @@
 <br>
 
 <!-- <div class="container"> -->
-    <?php
+<?php
 
-    $dados = buscaDados("SELECT * FROM `formacao` ORDER BY `formacao`.`Fim` DESC");
-    $titulo = buscaDado("SELECT * FROM menu;");
+$dados = buscaDados("SELECT * FROM `formacao` ORDER BY `formacao`.`Fim` DESC");
+$titulo = buscaDado("SELECT * FROM menu;");
 
-    ?>
+?>
 
-    <div>
-        <h2 class="text-danger" >
-            <?php echo $titulo['titulo3']; ?>
-        </h2>
-        <br>
-    </div>
-    <div class="formacao">
+<div>
+    <h2 class="text-danger">
+        <?php echo $titulo['titulo3']; ?>
+    </h2>
+    <br>
+</div>
+<div class="formacao">
 
-        <table style=" width:100%;  ">
-            <tr class="bg-danger" style="color: white;">
-                
-                <?php
-
-                if (count($dados) > 0) {
-                    for ($i = 0; $i < 1; $i++) {
-
-                        foreach ($dados[$i] as $k => $v) {
-                            if ($k != "id") {
-                                if ($k != "Ano") {
-                                    ?><th colspan="" style="text-align:center;"> <?php echo $k;?> </th> <?php
-                                }
-                            }
-                        }
-                    }
-                }
-                ?>
-
-            </tr>
+    <table style=" width:100%;  ">
+        <tr class="bg-danger" style="color: white;">
 
             <?php
 
             if (count($dados) > 0) {
-                for ($i = 0; $i < count($dados); $i++) {
-                    echo "<tr>";
+                for ($i = 0; $i < 1; $i++) {
 
                     foreach ($dados[$i] as $k => $v) {
                         if ($k != "id") {
-                            echo "<td>" . $v . "</td>";
-                        }
-                    } ?>
+                            if ($k != "Ano") {
+            ?><th colspan="" style="text-align:center;"> <?php echo $k; ?> </th> <?php
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                                        ?>
+
+        </tr>
+
+        <?php
+
+        if (count($dados) > 0) {
+            for ($i = 0; $i < count($dados); $i++) {
+                echo "<tr>";
+
+                foreach ($dados[$i] as $k => $v) {
+                    if ($k != "id") {
+                        echo "<td>" . $v . "</td>";
+                    }
+                } ?>
 
 
-            <?php
-                    echo "</tr>";
-                }
+        <?php
+                echo "</tr>";
             }
-            ?>
+        }
+        ?>
 
 
 
-        </table>
+    </table>
 
-        <br>
-        <hr id="link4" style="color:aliceblue ;"><br><br><br>
-    </div>
+    <br>
+    <hr id="link4" style="color:aliceblue ;"><br><br><br>
+</div>
 <!-- </div> -->

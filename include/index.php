@@ -18,7 +18,7 @@
     <h1>Meu Portfólio</h1>
     <p>Hidelgio Novela Estudante de Engenharia UJC!</p>
     <h5>Configurações</h5>
-    
+
   </div>
 
 
@@ -33,7 +33,9 @@
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><h5>MENU</h5></a>
+            <a class="nav-link active" aria-current="page" href="#">
+              <h5>MENU</h5>
+            </a>
           </li>
 
           <li class="nav-item dropdown ">
@@ -122,8 +124,8 @@
 
 
   <div class="bg-danger" style="position: fixed; bottom: 18px; right: 12px; width:auto; border: 3px solid white; border-radius: 10px;">
-    <a href="../"  style=" text-decoration: none; color:white; margin:4px">Voltar</a>
-    </div>
+    <a href="../" style=" text-decoration: none; color:white; margin:4px">Voltar</a>
+  </div>
   <!-- fechamento da div container -->
   </div>
   <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
