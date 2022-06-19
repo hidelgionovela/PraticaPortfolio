@@ -10,9 +10,22 @@
         <link rel="stylesheet" type="text/css" href="/../../css/bootstrap.min.css">
         <meta charset="utf-8">
         <title>Editar Dados</title>
+        <style>
+                table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1px;
+}
+
+        </style>
+
+
 </head>
 
-<body>
+<body class="bg-dark text-light">
 
         <?php
         require __DIR__ . '/../../app/Db/db.php'; ?>
@@ -70,11 +83,11 @@
 
                                                 <td>
                                                         <?php
-                                                        echo $dados[$i]['id'];
+                                                        //echo $dados[$i]['id'];
                                                         ?>
-                                                        <a href="editaFormacao.php?idUp=<?php echo $dados[$i]['id']; ?>">editar</a>
+                                                        <a class="btn btn-success" href="editaFormacao.php?idUp=<?php echo $dados[$i]['id']; ?>">editar</a>
                                                         <!-- inicializando o metodo get no link com o ponto de interogacao -->
-                                                        <a href="deleteFormacao.php?idd=<?php echo $dados[$i]['id']; ?>">excluir</a>
+                                                        <a class="btn btn-danger" href="deleteFormacao.php?idd=<?php echo $dados[$i]['id']; ?>">excluir</a>
                                                 </td>
 
 
@@ -91,7 +104,7 @@
                         <br>
                         <hr style="color:aliceblue ;">
                         <div style="position: fixed; bottom: 80px; right: 12px; ">
-                                <a href="../index.php"> <button type="button">Voltar</button> </a>
+                                <a href="../index.php"> <button class="btn btn-danger" type="button">Voltar</button> </a>
                         </div>
                         <br><br><br>
                 </div>
@@ -114,7 +127,7 @@
 
 
         ?>
-                <h2>Editar <?php echo $titulo['titulo3']; ?></h2>
+                <h2 class="text-danger">Editar <?php echo $titulo['titulo3']; ?></h2>
 
                 <!-- <form method="post" action="<?php $_SERVER['PHP_SELF']; ?>"> -->
                 <form method="POST" action="editaFormacao2.php?idUp=<?php echo $idUp; ?>">
@@ -130,7 +143,7 @@
                         <p>
                                 <label>Descricao</label><br>
                                 <!-- <input type="text" name="subTitulo" class="field" value="<?php echo $descricao; ?>"> -->
-                                <textarea class="field" name="descricao" rows="8">
+                                <textarea class="field" name="descricao" rows="6">
                 <?php echo $descricao; ?>
 		    </textarea>
 
@@ -150,7 +163,7 @@
                         <hr>
 
                         <p style="text-align: right">
-                                <input type="submit" value="Gravar">
+                                <input class="btn btn-primary" type="submit" value="Gravar">
 
                         </p>
                 </form>
