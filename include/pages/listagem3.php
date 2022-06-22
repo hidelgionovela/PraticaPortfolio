@@ -20,6 +20,7 @@ $titulo = buscaDado("SELECT * FROM menu;");
         <tr class="bg-danger" style="color: white;">
 
             <?php
+            
 
             if (count($dados) > 0) {
                 for ($i = 0; $i < 1; $i++) {

@@ -23,6 +23,7 @@
             <tr class="bg-danger" style="color: white;">
                
          <?php
+        //  print_r($dados);
            
            if (count($dados) > 0) 
            {
