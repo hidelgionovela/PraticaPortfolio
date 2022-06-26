@@ -8,7 +8,7 @@
 
 <body>
     <h2>Novo Curso e Certificaçao</h2>
-   <?php require __DIR__ . '/../app/Db/db.php';?>
+   <?php require __DIR__ . '/../../app/Db/db.php';?>
 
     <?php
     $inicio = ''; // int4
