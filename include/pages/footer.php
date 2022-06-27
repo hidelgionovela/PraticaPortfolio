@@ -1,4 +1,6 @@
-  <footer class="rodape bg-danger">
+ 
+ 
+ <footer class="rodape bg-danger">
     <div>
       <h2 class="hidel" id="link8">Contactos</h2>
       <br><br>
@@ -28,12 +30,22 @@
         &copy; 2022 - @Hidélgio_9la - Todos os direitos reservados
       </p>
     </div>
-    <div class="bg-danger" style="position: fixed; bottom: 18px; right: 12px; width:auto; border: 3px solid white; border-radius: 10px;">
-      <a href="#link0" style=" text-decoration: none; color:white; margin:3px">Ir ao Topo</a>
+    <div class="" style="position: fixed; top: 18px; right: 42px; width:auto; ">
+      <a  href="index.php?hd=<?php echo $d=0; ?>" style=" text-decoration: none; color:white; margin:3px"><ion-icon name="sunny-outline" size = "large" style="color:black ;"></ion-icon></a>
+    </div>
+    <div class="" style="position: fixed; top: 18px; right: 5px; width:auto; ">
+      <a href="index.php?hd=<?php echo $d=1; ?>" style=" text-decoration: none; color:white; margin:3px"><ion-icon name="moon-outline"  size="large" style="color:black ;"></ion-icon></a>
+    </div>
+
+    <div class="" style="position: fixed; bottom: 18px; right: 12px; width:auto; ">
+      <a href="#link0" style=" text-decoration: none; color:white; margin:3px"><ion-icon name="arrow-up-circle-outline"  size="large"></ion-icon></a>
     </div>
   </footer>
   <!-- fechamento da div container -->
   </div>
+  <!-- icones -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
