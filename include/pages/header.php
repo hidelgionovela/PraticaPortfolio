@@ -41,16 +41,14 @@
 
 </head>
 
-<?php if (isset($_GET['hd'])) { $hidel = $_GET['hd']; } else{ $hidel =0;}?>
+<?php if (isset($_GET['hd'])) {
+    $hidel = $_GET['hd'];
+} else {
+    $hidel = 0;
+} ?>
 
-<body <?php  if ($hidel==0) {?>
-    class="bg-light text-dark "
-<?php } else {?>
-     class="bg-dark text-light"
-   
-<?php } ?>
->
-   
+<body <?php if ($hidel == 0) { ?> class="bg-light text-dark " <?php } else { ?> class="bg-dark text-light" <?php } ?>>
+
     <?php
     require __DIR__ . '/../../app/Db/db.php';
 

@@ -52,5 +52,10 @@ $dados = buscaEspecial("SELECT * FROM dadospessoais;");
   </table>
 </center>
 <br>
-<hr id="link3" style="color:aliceblue ;"><br><br>
+<hr id="link3" <?php  if ($hidel==0) {?>
+    style="color: black;"
+<?php } else {?>
+    style="color: white;"    
+<?php } ?>
+><br><br>
 <!-- </div> -->

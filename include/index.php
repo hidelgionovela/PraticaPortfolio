@@ -82,9 +82,9 @@
               Cursos
             </a>
             <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="addCurso.php">Adicionar Curso</a></li>
-              <li><a class="dropdown-item" href="">Editar curso</a></li>
-              <li><a class="dropdown-item" href="">Apagar curso</a></li>
+              <li><a class="dropdown-item" href="conf_curso/addCurso.php">Adicionar Curso</a></li>
+              <li><a class="dropdown-item" href="conf_curso/gerirCurso.php">Editar curso</a></li>
+              <li><a class="dropdown-item" href="conf_curso/gerirCurso.php">Apagar curso</a></li>
             </ul>
           </li>
 

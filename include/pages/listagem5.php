@@ -67,6 +67,11 @@
 
         </table>
 
-        <br><hr id="link6" style="color:aliceblue ;"><br><br>
+        <br> <hr id="link6" <?php  if ($hidel==0) {?>
+    style="color: black;"
+<?php } else {?>
+    style="color: white;"    
+<?php } ?>
+><br><br>
     </div>
 <!-- </div> -->

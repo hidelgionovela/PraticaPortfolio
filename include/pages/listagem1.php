@@ -42,5 +42,10 @@ $dados = buscaDado("SELECT * FROM autobi;");
 
 </div>
 <br><br><br>
-<hr id="link2" class="bg-danger"><br><br>
+ <hr id="link2" <?php  if ($hidel==0) {?>
+    style="color: black;"
+<?php } else {?>
+    style="color: white;"    
+<?php } ?>
+> <br><br>
 <!-- </div> -->

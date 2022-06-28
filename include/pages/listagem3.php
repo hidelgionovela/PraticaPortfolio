@@ -62,6 +62,11 @@ $titulo = buscaDado("SELECT * FROM menu;");
     </table>
 
     <br>
-    <hr id="link4" style="color:aliceblue ;"><br><br><br>
+    <hr id="link4" <?php  if ($hidel==0) {?>
+    style="color: black;"
+<?php } else {?>
+    style="color: white;"    
+<?php } ?>
+><br><br><br>
 </div>
 <!-- </div> -->
