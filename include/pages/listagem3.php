@@ -1,6 +1,6 @@
 <br>
 
-<!-- <div class="container"> -->
+<!-- listgem da formacao -->
 <?php
 
 $dados = buscaDados("SELECT * FROM `formacao` ORDER BY `formacao`.`Fim` DESC");

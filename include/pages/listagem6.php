@@ -1,4 +1,4 @@
-<!-- <div class="container"> -->
+<!-- Listagem das habilidades-->
 <?php
 
 $dados = buscaEspecial("SELECT * FROM habilidades;");

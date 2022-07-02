@@ -1,6 +1,6 @@
 
 
-<!-- <div class="container"> -->
+<!-- listagem de linguas -->
     <?php
 
     $dados = buscaDados("SELECT *  FROM linguas;");

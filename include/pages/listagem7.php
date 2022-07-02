@@ -1,4 +1,4 @@
-<!-- <div class="container"> -->
+<!-- Listagem dos projectos -->
 <?php
 
 $dados = buscaDado("SELECT * FROM projetos;");

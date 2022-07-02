@@ -1,6 +1,6 @@
 
 
-<!-- <div class="container"> -->
+<!-- listagem dos cursos e certificacoes -->
     <?php
 
     $dados = buscaDados("SELECT * FROM `certificacoes` ORDER BY `certificacoes`.`Ano` DESC;");

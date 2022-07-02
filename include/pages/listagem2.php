@@ -1,6 +1,6 @@
-<!-- <div class="container"> -->
+<!-- listagem dos dados pessoais -->
 <?php
-
+// buscando os dados da base de dados
 $dados = buscaEspecial("SELECT * FROM dadospessoais;");
 
 
@@ -9,6 +9,9 @@ $dados = buscaEspecial("SELECT * FROM dadospessoais;");
 
 <div>
   <h2 class="text-danger">
+
+  <!-- imprimindo os dados do array dados vindo da base de dados -->
+  
     <?php
     for ($i = 0; $i < count($dados); $i++) {
       foreach ($dados[$i] as $k => $v) {

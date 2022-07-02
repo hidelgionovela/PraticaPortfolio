@@ -1,7 +1,8 @@
 <br>
-<!-- <div class="container" style="position: relative;">   -->
-<?php
 
+<!-- listagem da autobiografia -->
+<?php
+// buscando os dados da base de dados 
 $dados = buscaDado("SELECT * FROM autobi;");
 
 ?>
